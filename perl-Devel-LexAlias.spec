@@ -4,13 +4,14 @@
 #
 Name     : perl-Devel-LexAlias
 Version  : 0.05
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Devel-LexAlias-0.05.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Devel-LexAlias-0.05.tar.gz
 Summary  : alias lexical variables
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 Requires: perl-Devel-LexAlias-perl = %{version}-%{release}
+Requires: perl(Devel::Caller)
 BuildRequires : buildreq-cpan
 BuildRequires : perl(Devel::Caller)
 BuildRequires : perl(PadWalker)
