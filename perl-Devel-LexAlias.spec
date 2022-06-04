@@ -4,7 +4,7 @@
 #
 Name     : perl-Devel-LexAlias
 Version  : 0.05
-Release  : 14
+Release  : 15
 URL      : https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Devel-LexAlias-0.05.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Devel-LexAlias-0.05.tar.gz
 Summary  : alias lexical variables
@@ -83,5 +83,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Devel/LexAlias.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Devel/LexAlias/LexAlias.so
+/usr/lib/perl5/*
