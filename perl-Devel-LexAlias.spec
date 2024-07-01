@@ -7,7 +7,7 @@
 #
 Name     : perl-Devel-LexAlias
 Version  : 0.05
-Release  : 20
+Release  : 21
 URL      : https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Devel-LexAlias-0.05.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Devel-LexAlias-0.05.tar.gz
 Summary  : alias lexical variables
